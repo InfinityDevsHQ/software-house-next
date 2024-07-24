@@ -5,8 +5,8 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer className="p-12 bg-accent text-accent-foreground text-xs flex flex-col">
-      <div className="grid sm:grid-cols-2 lg:grid-cols-4 items-start sm:justify-center justify-between gap-12 border-b border-muted pb-12">
+    <footer className="p-8 md:p-12 bg-accent text-accent-foreground text-xs flex flex-col">
+      <div className="grid sm:grid-cols-2 lg:grid-cols-4 items-start sm:justify-center justify-between gap-8 md:p-12 border-b border-muted pb-12">
         <div className="flex flex-col gap-5">
           <LogoSvg />
           <p>

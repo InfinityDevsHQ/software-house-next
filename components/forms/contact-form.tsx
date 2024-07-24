@@ -35,7 +35,7 @@ export default function ContactForm() {
   return (
     <Form {...form}>
       <form
-        className="p-12 flex flex-col gap-5"
+        className="p-8 pb-0 md:p-12 flex flex-col gap-5"
         onSubmit={form.handleSubmit(onSubmit)}
       >
         <h3 className="text-accent-foreground font-bold text-3xl">
@@ -46,7 +46,7 @@ export default function ContactForm() {
           etiam. Erat mauris posuere dui sed faucibus placerat euismod.
         </p>
         <div className="flex flex-col gap-5">
-          <div className="flex gap-5">
+          <div className="flex flex-col md:flex-row gap-5">
             <FormField
               control={form.control}
               name="name"

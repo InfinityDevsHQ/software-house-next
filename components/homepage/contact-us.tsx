@@ -5,10 +5,10 @@ import ContactForm from "../forms/contact-form";
 
 export default function ContactUs() {
   return (
-    <section className="px-12 py-24 flex items-center justify-center">
-      <div className="flex gap-2.5">
-        <div className={`w-100 contact-hero text-accent`}>
-          <div className="w-full p-12 h-full z-50 flex flex-col justify-between">
+    <section className="p-8 md:px-12 py-16 md:py-24 flex items-center justify-center">
+      <div className="flex flex-col lg:flex-row gap-2.5">
+        <div className={`w-full lg:w-100 contact-hero text-accent`}>
+          <div className="w-full p-8 md:p-12 h-full z-50 flex flex-col justify-between">
             <div className="flex flex-col gap-2.5">
               <span className="uppercase font-medium">get in touch</span>
               <h3 className="text-3xl font-bold">Contact Our Sales</h3>
