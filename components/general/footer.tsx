@@ -1,5 +1,7 @@
 import { Phone } from "lucide-react";
 import LogoSvg from "../svgs/logo-svg";
+import { QuickLinks } from "@/contants";
+import Link from "next/link";
 
 export default function Footer() {
   return (
@@ -21,7 +23,16 @@ export default function Footer() {
             </div>
           </div>
         </div>
-        <div></div>
+        <div className="flex flex-col gap-2.5">
+          <h6 className="text-base font-bold">Quick Links</h6>
+          <ol className="flex flex-col gap-2.5">
+            {QuickLinks.map((link) => (
+              <li key={link.id} className="text-xs">
+                <Link href={link.link}>{link.name}</Link>
+              </li>
+            ))}
+          </ol>
+        </div>
         <div></div>
         <div></div>
       </div>
