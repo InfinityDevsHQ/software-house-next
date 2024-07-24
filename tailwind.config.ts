@@ -44,6 +44,9 @@ const config = {
           DEFAULT: "#0059FF",
           dark: "#003699",
         },
+        secondary: {
+          DEFAULT: "#FBBF24",
+        },
       },
     },
   },
