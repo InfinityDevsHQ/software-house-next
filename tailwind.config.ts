@@ -37,6 +37,9 @@ const config = {
           DEFAULT: "#E2E8F0",
           foreground: "#334155",
         },
+        muted: {
+          DEFAULT: "#CBD5E1",
+        },
         primary: {
           DEFAULT: "#0059FF",
           dark: "#003699",

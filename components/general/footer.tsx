@@ -1,12 +1,12 @@
 import { Contact, Mail, Phone } from "lucide-react";
 import LogoSvg from "../svgs/logo-svg";
-import { CompanyLinks, QuickLinks } from "@/contants";
+import { CompanyLinks, LegalLinks, QuickLinks } from "@/contants";
 import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer className="p-12 bg-accent text-accent-foreground text-xs">
-      <div className="grid grid-cols-4 items-start justify-between gap-12">
+    <footer className="p-12 bg-accent text-accent-foreground text-xs flex flex-col">
+      <div className="grid sm:grid-cols-2 lg:grid-cols-4 items-start sm:justify-center justify-between gap-12 border-b border-muted pb-12">
         <div className="flex flex-col gap-5">
           <LogoSvg />
           <p>
@@ -62,6 +62,16 @@ export default function Footer() {
             </Link>
           </div>
         </div>
+      </div>
+      <div className="flex items-center flex-col gap-10 sm:flex-row justify-between pt-12 ">
+        <p>Copyright &copy; Infinity Devs, All Rights Reserved</p>
+        <ol className="flex flex-col md:flex-row items-center gap-5">
+          {LegalLinks.map((link) => (
+            <li key={link.id}>
+              <Link href={link.link}>{link.name}</Link>
+            </li>
+          ))}
+        </ol>
       </div>
     </footer>
   );

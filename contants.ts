@@ -57,3 +57,20 @@ export const CompanyLinks: LinkType[] = [
     id: 5,
   },
 ];
+export const LegalLinks: LinkType[] = [
+  {
+    link: "#",
+    name: "Terms of Use",
+    id: 1,
+  },
+  {
+    link: "#",
+    name: "Privacy Policy",
+    id: 2,
+  },
+  {
+    link: "#",
+    name: "Cookies Policy",
+    id: 3,
+  },
+];
