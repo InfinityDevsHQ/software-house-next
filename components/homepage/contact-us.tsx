@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { Button } from "../ui/button";
 import { MessageCircle } from "lucide-react";
+import ContactForm from "../forms/contact-form";
 
 export default function ContactUs() {
   return (
@@ -26,7 +27,9 @@ export default function ContactUs() {
             </div>
           </div>
         </div>
-        <div className="flex-1"></div>
+        <div className="flex-1 w-full">
+          <ContactForm />
+        </div>
       </div>
     </section>
   );
