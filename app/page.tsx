@@ -1,9 +1,10 @@
 import Subscribe from "@/components/general/subscribe";
-import Image from "next/image";
+import ContactUs from "@/components/homepage/contact-us";
 
 export default function Home() {
   return (
     <>
+      <ContactUs />
       <Subscribe />
     </>
   );

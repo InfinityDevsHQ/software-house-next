@@ -48,6 +48,9 @@ const config = {
           DEFAULT: "#FBBF24",
         },
       },
+      spacing: {
+        100: "31.25rem",
+      },
     },
   },
   plugins: [require("tailwindcss-animate")],
