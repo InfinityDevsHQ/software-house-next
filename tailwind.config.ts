@@ -49,6 +49,7 @@ const config = {
         },
         secondary: {
           DEFAULT: "#FBBF24",
+          dark: "#F59E0B",
         },
       },
       spacing: {

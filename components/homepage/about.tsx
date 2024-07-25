@@ -1,8 +1,10 @@
+import Rating from "./about/rating";
+
 export default function About() {
   return (
     <section className="px-16 py-24">
       <div className="flex">
-        <div className="py-16">
+        <div className="py-16 flex flex-col gap-5">
           <header className="flex gap-5 justify-between">
             <div className="flex flex-1 flex-col gap-5 max-w-md w-full">
               <p className="uppercase text-primary-medium font-medium">
@@ -19,6 +21,7 @@ export default function About() {
               </p>
             </div>
           </header>
+          <Rating />
         </div>
       </div>
     </section>
