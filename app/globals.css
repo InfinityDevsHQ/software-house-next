@@ -9,3 +9,12 @@
 .shadows {
   box-shadow: 0px 10px 32px 0px #0000001a;
 }
+.hero-bg {
+  background: linear-gradient(
+      287.53deg,
+      rgba(0, 89, 255, 0) 19.95%,
+      #0059ff 104.64%
+    ),
+    url("/assets/hero.png");
+  background-size: cover;
+}
