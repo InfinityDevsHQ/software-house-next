@@ -5,6 +5,7 @@
   background: linear-gradient(rgb(37, 99, 235, 80%), rgb(37, 99, 235, 80%)),
     url("/assets/contact-hero.png");
   background-size: cover;
+  background-position: center;
 }
 .shadows {
   box-shadow: 0px 10px 32px 0px #0000001a;
@@ -17,4 +18,16 @@
     ),
     url("/assets/hero.png");
   background-size: cover;
+  background-position: center;
+}
+.business-bg {
+  background: linear-gradient(
+      287.53deg,
+      rgba(0, 89, 255, 0) 19.95%,
+      #0059ff 104.64%
+    ),
+    url("/assets/person.png");
+
+  background-size: cover;
+  background-position: center;
 }
