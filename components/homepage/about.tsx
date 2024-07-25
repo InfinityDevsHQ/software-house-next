@@ -1,12 +1,13 @@
+import Image from "next/image";
 import Rating from "./about/rating";
 
 export default function About() {
   return (
     <section className="px-16 py-24">
-      <div className="flex">
-        <div className="py-16 flex flex-col gap-5">
+      <div className="flex gap-12 justify-between">
+        <div className="py-16 flex flex-col gap-5 flex-1">
           <header className="flex gap-5 justify-between">
-            <div className="flex flex-1 flex-col gap-5 max-w-md w-full">
+            <div className="flex flex-1 flex-col gap-5 w-full">
               <p className="uppercase text-primary-medium font-medium">
                 what we offer
               </p>
@@ -22,6 +23,15 @@ export default function About() {
             </div>
           </header>
           <Rating />
+        </div>
+        <div className="flex items-center justify-center">
+          <Image
+            src={"/assets/convince.png"}
+            width={483}
+            height={500}
+            alt="Image"
+            className="h-full"
+          />
         </div>
       </div>
     </section>
