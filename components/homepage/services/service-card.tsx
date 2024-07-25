@@ -1,4 +1,3 @@
-import BuildingSvg from "@/components/svgs/building-svg";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import Link from "next/link";
@@ -46,7 +45,7 @@ export default function ServiceCard({
         className="w-full bg-secondary px-5 py-2.5 text-xs text-accent-dark hover:text-accent"
         asChild
       >
-        <Link href={"#"}>Learn More</Link>
+        <Link href={serviceLink}>Learn More</Link>
       </Button>
     </article>
   );
