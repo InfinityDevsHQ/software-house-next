@@ -6,3 +6,6 @@
     url("/assets/contact-hero.png");
   background-size: cover;
 }
+.shadows {
+  box-shadow: 0px 10px 32px 0px #0000001a;
+}
