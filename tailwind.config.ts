@@ -43,6 +43,7 @@ const config = {
         primary: {
           DEFAULT: "#0059FF",
           dark: "#003699",
+          medium: "#3B82F6",
         },
         secondary: {
           DEFAULT: "#FBBF24",
