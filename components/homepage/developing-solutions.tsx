@@ -1,11 +1,58 @@
 import Link from "next/link";
 import { Button } from "../ui/button";
-import { ChevronRight } from "lucide-react";
+import {
+  ChevronRight,
+  Database,
+  File,
+  FileSearch,
+  Folder,
+  Globe,
+  Scale,
+} from "lucide-react";
+import SolutionCard, { SolutionCardProps } from "./services/solution-card";
 
 export default function DevelopingSolutions() {
+  const Solutions: SolutionCardProps[] = [
+    {
+      heading: "Business Strategy",
+      description:
+        "Lorem ipsum dolor sit amet consectetur. Nibh lectus diam egestas etiam. Erat mauris posuere dui sed faucibus placerat euismod. ",
+      icon: <File />,
+    },
+    {
+      heading: "Financial Planning",
+      description:
+        "Lorem ipsum dolor sit amet consectetur. Nibh lectus diam egestas etiam. Erat mauris posuere dui sed faucibus placerat euismod. ",
+      icon: <Database />,
+    },
+    {
+      heading: "Project Management",
+      description:
+        "Lorem ipsum dolor sit amet consectetur. Nibh lectus diam egestas etiam. Erat mauris posuere dui sed faucibus placerat euismod. ",
+      icon: <Folder />,
+    },
+    {
+      heading: "Tax Consulting",
+      description:
+        "Lorem ipsum dolor sit amet consectetur. Nibh lectus diam egestas etiam. Erat mauris posuere dui sed faucibus placerat euismod. ",
+      icon: <Scale />,
+    },
+    {
+      heading: "Audit & Evaluation",
+      description:
+        "Lorem ipsum dolor sit amet consectetur. Nibh lectus diam egestas etiam. Erat mauris posuere dui sed faucibus placerat euismod. ",
+      icon: <FileSearch />,
+    },
+    {
+      heading: "Quality Resourcing",
+      description:
+        "Lorem ipsum dolor sit amet consectetur. Nibh lectus diam egestas etiam. Erat mauris posuere dui sed faucibus placerat euismod. ",
+      icon: <Globe />,
+    },
+  ];
   return (
     <section className="px-16">
-      <div className="py-12">
+      <div className="py-12 flex flex-col gap-12">
         <header className="flex gap-5 justify-between">
           <div className="flex flex-1 flex-col gap-5 max-w-md w-full">
             <p className="uppercase text-primary-medium font-medium">
@@ -33,6 +80,16 @@ export default function DevelopingSolutions() {
             </Button>
           </div>
         </header>
+        <section className="grid lg:grid-cols-3 gap-5">
+          {Solutions.map((solution) => (
+            <SolutionCard
+              key={solution.heading}
+              heading={solution.heading}
+              description={solution.description}
+              icon={solution.icon}
+            />
+          ))}
+        </section>
       </div>
     </section>
   );
