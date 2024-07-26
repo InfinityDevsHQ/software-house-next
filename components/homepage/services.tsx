@@ -36,13 +36,13 @@ export default function Services() {
     },
   ];
   return (
-    <section className="p-12 flex flex-col gap-12">
+    <section className="px-4 py-8 md:p-12 flex flex-col gap-4 sm:gap-8 md:gap-12">
       <div className="flex flex-col gap-5 max-w-md text-center mx-auto">
         <p className="uppercase text-primary-medium font-medium">
           what we offer
         </p>
         <h2 className="text-3xl font-bold">
-          Developing Solutions fot the Future
+          Developing Solutions for the Future
         </h2>
       </div>
       <div className="grid md:grid-cols-2 lg:grid-cols-3 place-items-center place-content-center  gap-4">

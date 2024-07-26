@@ -51,18 +51,18 @@ export default function DevelopingSolutions() {
     },
   ];
   return (
-    <section className="px-16 lg:py-28">
+    <section className="px-4 sm:px-16 lg:py-28">
       <div className="py-12 flex flex-col gap-12">
         <header className="flex flex-col lg:flex-row gap-5 justify-between">
-          <div className="flex flex-1 flex-col gap-5 max-w-md w-full">
-            <p className="uppercase text-primary-medium font-medium">
+          <div className="flex flex-1 flex-col gap-5 max-w-md w-full mx-auto sm:mx-0">
+            <p className="uppercase text-primary-medium font-medium text-center sm:text-start">
               what we offer
             </p>
-            <h2 className="text-3xl font-bold">
+            <h2 className="text-3xl font-bold text-center sm:text-start">
               Developing Solutions fot the Future
             </h2>
           </div>
-          <div className="flex flex-col justify-between gap-2.5 max-w-lg">
+          <div className="flex flex-col justify-between gap-2.5 max-w-lg text-center sm:text-start">
             <p>
               Lorem ipsum dolor sit amet consectetur. Nibh lectus diam egestas
               etiam. Erat mauris posuere dui sed faucibus placerat euismod.
@@ -70,7 +70,7 @@ export default function DevelopingSolutions() {
               imperdiet in scelerisque.
             </p>
             <Button
-              className="max-w-max bg-secondary text-accent-dark hover:text-accent text-xs"
+              className="max-w-max mx-auto sm:mx-0 bg-secondary text-accent-dark hover:text-accent text-xs"
               asChild
             >
               <Link href={"#"} className="flex gap-2.5">
