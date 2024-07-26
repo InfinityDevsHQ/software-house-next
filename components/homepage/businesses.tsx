@@ -3,12 +3,12 @@ import SuccessRate from "./success-rate";
 
 export default function Businesses() {
   return (
-    <section className="business-bg p-2.5 h-[600px] relative">
+    <section className="business-bg py-2.5 h-[600px] relative">
       <div className="flex items-center">
-        <div className="p-12">
-          <div className="max-w-[561px] flex flex-col gap-5">
+        <div className="px-4 py-20 md:p-20 lg:p-12 ">
+          <div className="max-w-xl flex flex-col gap-5 pt-16 sm:pt-20 md:pt-10 lg:pt-0">
             <p className="text-white">Welcome to Infinity Devs</p>
-            <h1 className="font-bold text-5xl text-white">
+            <h1 className="font-bold text-4xl md:text-5xl text-white">
               From Strategy to delivery, on time every time.
             </h1>
 
