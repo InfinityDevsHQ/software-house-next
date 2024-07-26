@@ -13,12 +13,12 @@ export default function Home() {
   return (
     <>
       <HeroSection />
-      <div className="lg:hidden p-12">
+      <div className="lg:hidden md:p-12">
         <Overview />
       </div>
       <About />
       <Businesses />
-      <section className="p-12 w-full lg:hidden">
+      <section className="px-4 py-8 sm:p-12 w-full lg:hidden">
         <SuccessRate />
       </section>
       <DevelopingSolutions />
