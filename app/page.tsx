@@ -5,12 +5,16 @@ import ContactUs from "@/components/homepage/contact-us";
 import Convince from "@/components/homepage/convince";
 import DevelopingSolutions from "@/components/homepage/developing-solutions";
 import HeroSection from "@/components/homepage/hero-section";
+import Overview from "@/components/homepage/overview";
 import Services from "@/components/homepage/services";
 
 export default function Home() {
   return (
     <>
       <HeroSection />
+      <div className="lg:hidden p-12">
+        <Overview />
+      </div>
       <About />
       <Businesses />
       <DevelopingSolutions />

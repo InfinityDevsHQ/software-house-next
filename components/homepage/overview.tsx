@@ -1,10 +1,10 @@
-import { Contact, File, Globe, Phone } from "lucide-react";
+import { File, Globe, Phone } from "lucide-react";
 import ListSvg from "../svgs/list-svg";
 
 export default function Overview() {
   return (
-    <section className="w-full px-16 flex gap-2.5 overview-shadows">
-      <div className="pt-7 flex flex-col lg:flex-row self-end gap-2.5 bg-accent-light shadows p-5 w-[821px]">
+    <section className="w-full px-16 flex flex-col lg:flex-row gap-2.5 overview-shadows">
+      <div className="pt-7 flex flex-col lg:flex-row lg:self-end gap-2.5 bg-accent-light shadows p-5 lg:w-[821px]">
         <div className="flex items-center gap-2.5">
           <File width={40} height={40} />
           <span>Business Planning, Strategy & Execution</span>
