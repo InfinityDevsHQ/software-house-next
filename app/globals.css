@@ -31,3 +31,9 @@
   background-size: cover;
   background-position: center;
 }
+.overview-shadow {
+  box-shadow: 0px 4px 32px 0px #00000040;
+}
+.call-gradient {
+  background: linear-gradient(180deg, #0059ff 0%, #003699 100%);
+}
