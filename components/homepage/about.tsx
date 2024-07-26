@@ -3,9 +3,9 @@ import Rating from "./about/rating";
 
 export default function About() {
   return (
-    <section className="px-16 py-24">
-      <div className="flex flex-col lg:flex-row gap-12 justify-between">
-        <div className="py-16 flex flex-col gap-5 flex-1 order-2 lg:order-1">
+    <section className="px-4 md:px-12 py-12 lg:py-24">
+      <div className="flex flex-col lg:flex-row gap-4 md:gap-6 lg:gap-12 justify-between">
+        <div className="md:py-6 lg:py-16 flex flex-col gap-5 flex-1 order-2 lg:order-1">
           <header className="flex gap-5 justify-between">
             <div className="flex flex-1 flex-col gap-5 w-full">
               <p className="uppercase text-primary-medium font-medium">
@@ -14,7 +14,7 @@ export default function About() {
               <h2 className="text-3xl font-bold">
                 Developing Solutions fot the Future
               </h2>
-              <p>
+              <p className="text-sm sm:text-base">
                 Lorem ipsum dolor sit amet consectetur. Nibh lectus diam egestas
                 etiam. Erat mauris posuere dui sed faucibus placerat euismod.
                 Blandit facilisis hac leo morbi. Nibh erat hac nibh nibh
@@ -27,7 +27,7 @@ export default function About() {
         <div className="flex items-center justify-center order-1 lg:order-2">
           <Image
             src={"/assets/convince.png"}
-            width={483}
+            width={600}
             height={500}
             alt="Image"
             className="h-full"
