@@ -4,8 +4,8 @@ import Rating from "./about/rating";
 export default function About() {
   return (
     <section className="px-16 py-24">
-      <div className="flex gap-12 justify-between">
-        <div className="py-16 flex flex-col gap-5 flex-1">
+      <div className="flex flex-col lg:flex-row gap-12 justify-between">
+        <div className="py-16 flex flex-col gap-5 flex-1 order-2 lg:order-1">
           <header className="flex gap-5 justify-between">
             <div className="flex flex-1 flex-col gap-5 w-full">
               <p className="uppercase text-primary-medium font-medium">
@@ -24,7 +24,7 @@ export default function About() {
           </header>
           <Rating />
         </div>
-        <div className="flex items-center justify-center">
+        <div className="flex items-center justify-center order-1 lg:order-2">
           <Image
             src={"/assets/convince.png"}
             width={483}

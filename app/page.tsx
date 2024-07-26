@@ -7,6 +7,7 @@ import DevelopingSolutions from "@/components/homepage/developing-solutions";
 import HeroSection from "@/components/homepage/hero-section";
 import Overview from "@/components/homepage/overview";
 import Services from "@/components/homepage/services";
+import SuccessRate from "@/components/homepage/success-rate";
 
 export default function Home() {
   return (
@@ -17,6 +18,9 @@ export default function Home() {
       </div>
       <About />
       <Businesses />
+      <section className="p-12 w-full lg:hidden">
+        <SuccessRate />
+      </section>
       <DevelopingSolutions />
       <Convince />
       <Services />
