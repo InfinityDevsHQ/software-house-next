@@ -3,13 +3,13 @@ import ListSvg from "../svgs/list-svg";
 
 export default function Overview() {
   return (
-    <section className="w-full px-16 flex flex-col lg:flex-row gap-2.5 overview-shadows">
-      <div className="pt-7 flex flex-col lg:flex-row lg:self-end gap-2.5 bg-accent-light shadows p-5 lg:w-[821px]">
+    <section className="w-full px-4 md:px-16 flex flex-col lg:flex-row gap-2.5 overview-shadows">
+      <div className="pt-7 flex flex-col lg:flex-row lg:self-end gap-2.5 sm:gap-4 bg-accent-light shadows md:p-5 lg:w-[821px]">
         <div className="flex items-center gap-2.5">
           <File width={40} height={40} />
           <span>Business Planning, Strategy & Execution</span>
         </div>
-        <div className="flex items-center gap-2.5">
+        <div className="flex items-center gap-2.5 pl-1">
           <span>
             <ListSvg variant="black" />
           </span>
@@ -20,7 +20,7 @@ export default function Overview() {
           <span>International Business Opportunities</span>
         </div>
       </div>
-      <div className="p-4 xl:p-7 call-gradient flex-1 flex flex-col gap-2.5 text-center items-center justify-center text-accent-light">
+      <div className="py-4 md:p-4 xl:p-7 call-gradient flex-1 flex md:flex-col gap-2.5 text-center items-center justify-around md:justify-center text-accent-light">
         <div className="flex items-center gap-2.5">
           <Phone className="text-secondary-dark h-7 w-7 x:h-10 xl:w-10" />
           <div className="flex flex-col gap-2.5">
