@@ -19,6 +19,7 @@
     url("/assets/hero.png");
   background-size: cover;
   background-position: center;
+  height: 600px !important;
 }
 .business-bg {
   background: linear-gradient(

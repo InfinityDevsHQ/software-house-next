@@ -22,7 +22,7 @@ export default function Overview() {
       </div>
       <div className="py-4 md:p-4 xl:p-7 call-gradient flex-1 flex md:flex-col gap-2.5 text-center items-center justify-around md:justify-center text-accent-light">
         <div className="flex items-center gap-2.5">
-          <Phone className="text-secondary-dark h-7 w-7 x:h-10 xl:w-10" />
+          <Phone className="text-secondary-dark h-7 w-7 xl:h-10 xl:w-10" />
           <div className="flex flex-col gap-2.5">
             <span>Need Help? Call Us</span>
             <span>+92 123 4567 456</span>
