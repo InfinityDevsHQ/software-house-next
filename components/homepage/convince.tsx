@@ -5,7 +5,7 @@ import ArrowPointedSvg from "../svgs/arrow-pointed-svg";
 export default function Convince() {
   return (
     <section className="px-4 md:px-12 py-12 md:py-16 flex items-center justify-center">
-      <div className="grid lg:grid-cols-2 gap-2.5 max-w-[1180px]">
+      <div className="grid lg:grid-cols-2 gap-2.5 max-w-[1180px] h-[500px]">
         <div className="flex items-center justify-center">
           <Image
             src={"/assets/convince.png"}
@@ -15,7 +15,7 @@ export default function Convince() {
             className="h-full w-full object-cover"
           />
         </div>
-        <div className="contact-hero text-accent p-8 sm:p-12 flex flex-col gap-5">
+        <div className="contact-hero text-accent-light p-8 sm:p-12 flex flex-col gap-5">
           <h4 className="text-3xl font-bold">
             From Strategy to delivery, on time every time.
           </h4>
