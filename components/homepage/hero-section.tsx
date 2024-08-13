@@ -18,7 +18,7 @@ export default function HeroSection() {
               Blandit facilisis hac leo morbi. Nibh erat hac nibh nibh faucibus
               imperdiet in scelerisque.
             </p>
-            <Button className="max-w-max rounded-none bg-secondary text-accent-dark hover:text-accent">
+            <Button className="rounded-none bg-secondary text-accent-dark hover:text-accent px-5 py-2.5">
               Discover More
             </Button>
           </div>
