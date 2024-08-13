@@ -18,12 +18,12 @@ export default function HeroSection() {
               Blandit facilisis hac leo morbi. Nibh erat hac nibh nibh faucibus
               imperdiet in scelerisque.
             </p>
-            <Button className="rounded-none bg-secondary text-accent-dark hover:text-accent px-5 py-2.5">
+            <Button className="rounded-none bg-secondary text-accent-dark hover:text-accent max-w-max">
               Discover More
             </Button>
           </div>
         </div>
-        <div className="absolute -bottom-12 left-[50%] translate-x-[-50%] hidden lg:block w-full">
+        <div className="absolute -bottom-12 left-[50%] translate-x-[-50%] hidden xl:block w-full">
           <Overview />
         </div>
       </section>

@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <>
       <HeroSection />
-      <div className="lg:hidden md:p-12">
+      <div className="xl:hidden md:p-12">
         <Overview />
       </div>
       <About />
