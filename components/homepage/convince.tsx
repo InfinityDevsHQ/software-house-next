@@ -25,8 +25,8 @@ export default function Convince() {
             Blandit facilisis hac leo morbi. Nibh erat hac nibh nibh faucibus
             imperdiet in scelerisque.
           </p>
-          <ol className="max-w-96 p-5 flex flex-col gap-5">
-            <li className="flex gap-2.5 text-accent-light">
+          <ol className="max-w-96 flex flex-col gap-5">
+            <li className="flex gap-2.5 text-accent-light p-5">
               <span>
                 <ListSvg />
               </span>
@@ -39,7 +39,7 @@ export default function Convince() {
                 </p>
               </div>
             </li>
-            <li className="flex gap-2.5 text-accent-light">
+            <li className="flex gap-2.5 text-accent-light p-5">
               <span>
                 <ArrowPointedSvg />
               </span>
