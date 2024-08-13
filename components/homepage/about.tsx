@@ -28,7 +28,7 @@ export default function About() {
         <div className="flex items-center justify-center order-1 lg:order-2">
           <Image
             src={"/assets/convince.png"}
-            width={600}
+            width={493}
             height={500}
             alt="Image"
             className="h-full"
