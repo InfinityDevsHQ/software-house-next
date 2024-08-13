@@ -45,7 +45,7 @@ export default function Header() {
           <li className="flex items-center">
             <Button
               variant={"outline"}
-              className="bg-transparent p-2.5 text-accent-light border-none hover:bg-transparent hover:text-accent-light gap-1.5 text-xs font-medium"
+              className="bg-transparent p-2.5 text-accent-light border-none hover:bg-transparent hover:text-accent-light gap-1.5 text-xs font-medium h-auto px-5 py-2.5"
             >
               <span>Home</span>
               <ChevronDown height={12} width={12} />
@@ -54,16 +54,15 @@ export default function Header() {
           <li className="flex items-center">
             <Button
               variant={"outline"}
-              className="bg-transparent p-2.5 text-accent-light border-none hover:bg-transparent hover:text-accent-light gap-1.5 text-xs font-medium"
+              className="bg-transparent p-2.5 text-accent-light border-none hover:bg-transparent hover:text-accent-light gap-1.5 text-xs font-medium h-auto px-5 py-2.5"
             >
               <span>Home</span>
               <ChevronDown height={12} width={12} />
             </Button>
           </li>
           <li className="flex items-center">
-            <Button className="bg-secondary rounded-none p-2.5 !text-accent-dark border-none hover:bg-transparent hover:!text-accent-light gap-1.5 text-xx">
-              <span>Home</span>
-              <ChevronDown height={12} width={12} />
+            <Button className="bg-secondary rounded-none p-2.5 !text-accent-dark border-none hover:bg-transparent hover:!text-accent-light gap-1.5 text-xs h-auto px-5 py-2.5">
+              <span>Get Started</span>
             </Button>
           </li>
         </ol>
@@ -88,13 +87,11 @@ export default function Header() {
                   className="bg-transparent p-2.5 text-accent-foreground border-none hover:bg-transparent hover:text-accent-foreground gap-1.5 text-xs font-medium"
                 >
                   <span>Home</span>
-                  <ChevronDown height={12} width={12} />
                 </Button>
               </li>
               <li className="flex items-center">
-                <Button className="bg-secondary rounded-none p-2.5 !text-accent-dark border-none hover:bg-transparent hover:!text-accent-light gap-1.5 text-xx">
+                <Button className="bg-secondary rounded-none p-2.5 !text-accent-dark border-none hover:bg-transparent hover:!text-accent-light gap-1.5 text-xx h-auto px-5 py-2.5">
                   <span>Home</span>
-                  <ChevronDown height={12} width={12} />
                 </Button>
               </li>
             </ol>
