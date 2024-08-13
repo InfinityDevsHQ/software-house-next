@@ -5,7 +5,7 @@ import ArrowPointedSvg from "../svgs/arrow-pointed-svg";
 export default function Convince() {
   return (
     <section className="px-4 md:px-12 py-12 md:py-16 flex items-center justify-center">
-      <div className="grid lg:grid-cols-2 gap-2.5 max-w-[1180px] h-[500px]">
+      <div className="grid lg:grid-cols-2 gap-2.5 lg:max-w-[1180px] lg:h-[500px]">
         <div className="flex items-center justify-center">
           <Image
             src={"/assets/convince.png"}
