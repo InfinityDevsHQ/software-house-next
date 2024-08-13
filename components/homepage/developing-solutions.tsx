@@ -70,7 +70,7 @@ export default function DevelopingSolutions() {
               imperdiet in scelerisque.
             </p>
             <Button
-              className="max-w-max mx-auto sm:mx-0 bg-secondary text-accent-dark hover:text-accent text-xs"
+              className="max-w-max mx-auto sm:mx-0 bg-secondary text-accent-dark hover:text-accent text-xs rounded-none px-5 py-2.5 gap-2.5"
               asChild
             >
               <Link href={"#"} className="flex gap-2.5">
