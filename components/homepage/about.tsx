@@ -12,9 +12,10 @@ export default function About() {
                 what we offer
               </p>
               <h2 className="text-3xl font-bold">
-                Developing Solutions fot the Future
+                We Create a Culture that inspires us to
+                <br /> work smart, together
               </h2>
-              <p className="text-sm sm:text-base">
+              <p className="text-sm sm:text-base lg:w-[500px]">
                 Lorem ipsum dolor sit amet consectetur. Nibh lectus diam egestas
                 etiam. Erat mauris posuere dui sed faucibus placerat euismod.
                 Blandit facilisis hac leo morbi. Nibh erat hac nibh nibh

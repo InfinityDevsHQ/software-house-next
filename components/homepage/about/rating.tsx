@@ -11,7 +11,7 @@ export default function Rating() {
           Erat mauris posuere dui sed faucibus
         </p>
       </div>
-      <span className="border-2 border-muted" />
+      <span className="border border-muted" />
       <div className="py-3 sm:py-5 mx-auto flex flex-col gap-1 sm:gap-2.5 items-center justify-center text-center">
         <p className="text-4xl font-bold text-primary-medium">B+</p>
         <FiveStars />
