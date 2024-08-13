@@ -4,7 +4,7 @@ import ListSvg from "../svgs/list-svg";
 export default function Overview() {
   return (
     <section className="w-full px-4 md:px-16 flex flex-col xl:flex-row gap-2.5 overview-shadows xl:max-w-[1180px] mx-auto">
-      <div className="pt-7 flex flex-col lg:flex-row lg:self-end gap-2.5 sm:gap-4 bg-accent-light shadows md:p-5 lg:w-[821px] mx-auto">
+      <div className="pt-7 flex flex-col lg:flex-row lg:self-end gap-2.5 bg-accent-light  md:pt-7 md:p-7 lg:w-[821px] mx-auto">
         <div className="flex items-center gap-2.5">
           <File width={40} height={40} />
           <span>Business Planning, Strategy & Execution</span>
