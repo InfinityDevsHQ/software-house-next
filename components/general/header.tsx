@@ -2,16 +2,8 @@
 import { useState, useEffect } from "react";
 import { ChevronDown, MenuIcon } from "lucide-react";
 import WhiteLogoSvg from "../svgs/white-logo-svg";
-import Link from "next/link";
 import { Button } from "../ui/button";
-import {
-  Sheet,
-  SheetContent,
-  SheetDescription,
-  SheetHeader,
-  SheetTitle,
-  SheetTrigger,
-} from "@/components/ui/sheet";
+import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 
 export default function Header() {
   const [scroll, setScroll] = useState(false);
@@ -38,14 +30,14 @@ export default function Header() {
       <nav
         className={`max-w-5xl w-full mx-auto flex items-center justify-between py-5 px-3 lg:px-0`}
       >
-        <Link href={"/"}>
+        <a href={"/"}>
           <WhiteLogoSvg />
-        </Link>
+        </a>
         <ol className="hidden lg:flex items-center gap-2.5">
           <li className="flex items-center">
             <Button
               variant={"outline"}
-              className="bg-transparent p-2.5 text-accent-light border-none hover:bg-transparent hover:text-accent-light gap-1.5 text-xs font-medium h-auto px-5 py-2.5"
+              className="bg-transparent p-2.5 text-accent-light border-none hover:bg-transparent hover:text-accent-light gap-1.5 text-xs font-medium"
             >
               <span>Home</span>
               <ChevronDown height={12} width={12} />
@@ -54,15 +46,16 @@ export default function Header() {
           <li className="flex items-center">
             <Button
               variant={"outline"}
-              className="bg-transparent p-2.5 text-accent-light border-none hover:bg-transparent hover:text-accent-light gap-1.5 text-xs font-medium h-auto px-5 py-2.5"
+              className="bg-transparent p-2.5 text-accent-light border-none hover:bg-transparent hover:text-accent-light gap-1.5 text-xs font-medium"
             >
               <span>Home</span>
               <ChevronDown height={12} width={12} />
             </Button>
           </li>
           <li className="flex items-center">
-            <Button className="bg-secondary rounded-none p-2.5 !text-accent-dark border-none hover:bg-transparent hover:!text-accent-light gap-1.5 text-xs h-auto px-5 py-2.5">
+            <Button className="bg-secondary rounded-none p-2.5 !text-accent-dark border-none hover:bg-transparent hover:!text-accent-light gap-1.5 text-xx">
               <span>Get Started</span>
+              <ChevronDown height={12} width={12} />
             </Button>
           </li>
         </ol>
@@ -87,11 +80,13 @@ export default function Header() {
                   className="bg-transparent p-2.5 text-accent-foreground border-none hover:bg-transparent hover:text-accent-foreground gap-1.5 text-xs font-medium"
                 >
                   <span>Home</span>
+                  <ChevronDown height={12} width={12} />
                 </Button>
               </li>
               <li className="flex items-center">
-                <Button className="bg-secondary rounded-none p-2.5 !text-accent-dark border-none hover:bg-transparent hover:!text-accent-light gap-1.5 text-xx h-auto px-5 py-2.5">
-                  <span>Home</span>
+                <Button className="bg-secondary rounded-none p-2.5 !text-accent-dark border-none hover:bg-transparent hover:!text-accent-light gap-1.5 text-xx">
+                  <span>Get Started</span>
+                  <ChevronDown height={12} width={12} />
                 </Button>
               </li>
             </ol>

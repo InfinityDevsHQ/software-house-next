@@ -4,8 +4,8 @@ import ArrowPointedSvg from "../svgs/arrow-pointed-svg";
 
 export default function Convince() {
   return (
-    <section className="px-4 md:px-12 py-12 md:py-16 flex items-center justify-center">
-      <div className="grid lg:grid-cols-2 gap-2.5 lg:max-w-[1180px] lg:h-[500px]">
+    <section className="px-4 md:px-12 py-12 md:py-16 lg:pb-20 lg:pt-0 flex items-center justify-center">
+      <div className="grid lg:grid-cols-2 gap-2.5 max-w-[1180px] lg:h-[500px]">
         <div className="flex items-center justify-center">
           <Image
             src={"/assets/convince.png"}
@@ -15,7 +15,7 @@ export default function Convince() {
             className="h-full w-full object-cover"
           />
         </div>
-        <div className="contact-hero text-accent-light p-8 sm:p-12 flex flex-col gap-5">
+        <div className="contact-hero text-accent-light p-4 sm:p-8 md:p-12 flex flex-col gap-5">
           <h4 className="text-3xl font-bold">
             From Strategy to delivery, on time every time.
           </h4>
@@ -25,8 +25,8 @@ export default function Convince() {
             Blandit facilisis hac leo morbi. Nibh erat hac nibh nibh faucibus
             imperdiet in scelerisque.
           </p>
-          <ol className="max-w-96 flex flex-col gap-5">
-            <li className="flex gap-2.5 text-accent-light p-5">
+          <ol className="max-w-96 p-5 flex flex-col gap-5">
+            <li className="flex gap-2.5 text-accent-light">
               <span>
                 <ListSvg />
               </span>
@@ -39,7 +39,7 @@ export default function Convince() {
                 </p>
               </div>
             </li>
-            <li className="flex gap-2.5 text-accent-light p-5">
+            <li className="flex gap-2.5 text-accent-light">
               <span>
                 <ArrowPointedSvg />
               </span>

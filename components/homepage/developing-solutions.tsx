@@ -51,7 +51,7 @@ export default function DevelopingSolutions() {
     },
   ];
   return (
-    <section className="px-4 sm:px-16 lg:py-28">
+    <section className="px-4 sm:px-16 lg:py-28 lg:px-12">
       <div className="py-12 flex flex-col gap-12">
         <header className="flex flex-col lg:flex-row gap-5 justify-between">
           <div className="flex flex-1 flex-col gap-5 max-w-md w-full mx-auto sm:mx-0">
@@ -70,7 +70,7 @@ export default function DevelopingSolutions() {
               imperdiet in scelerisque.
             </p>
             <Button
-              className="max-w-max mx-auto sm:mx-0 bg-secondary text-accent-dark hover:text-accent text-xs rounded-none px-5 py-2.5 gap-2.5"
+              className="max-w-max mx-auto sm:mx-0 bg-secondary text-accent-dark hover:text-accent text-xs"
               asChild
             >
               <Link href={"#"} className="flex gap-2.5">

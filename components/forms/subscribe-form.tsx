@@ -31,7 +31,7 @@ export default function SubscribeForm() {
   return (
     <Form {...form}>
       <form
-        className="flex flex-col gap-2.5 flex-1"
+        className="flex flex-col gap-2.5 flex-1 pr-4"
         onSubmit={form.handleSubmit(onSubmit)}
       >
         <FormField

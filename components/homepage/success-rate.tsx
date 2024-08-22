@@ -1,13 +1,11 @@
 export default function SuccessRate() {
   return (
-    <div className="p-7 flex flex-col md:flex-row lg:flex-row gap-3 sm:gap-7 bg-accent-light overview-shadow max-w-screen-xl mx-auto">
-      <div className="!w-[300px] self-center">
-        <h3 className="text-2xl font-bold text-accent-dark flex-1 self-center text-center md:text-start w-full">
-          We are ready to serve you differently
-        </h3>
-      </div>
+    <div className="p-7 flex flex-col md:flex-row lg:flex-row gap-3 sm:gap-7 bg-accent-light overview-shadow max-w-screen-xl mx-auto xl:h-[150px]">
+      <h3 className="text-2xl font-bold text-accent-dark flex-1 self-center text-center md:text-start">
+        We are ready to serve you differently
+      </h3>
       <span className="border-2 border-muted" />
-      <p className="self-center mx-auto text-center md:text-start flex-1">
+      <p className="max-w-md md:max-w-2xl self-center mx-auto text-center md:text-start">
         Lorem ipsum dolor sit amet consectetur. Nibh lectus diam egestas etiam.
         Erat mauris posuere dui sed faucibus placerat euismod. Blandit facilisis
         hac leo morbi. Nibh erat hac nibh nibh faucibus imperdiet in
